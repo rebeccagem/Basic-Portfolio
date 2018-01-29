@@ -12,7 +12,7 @@
 <body>
   <header>
     <h1>Rebecca Gemeinhardt</h1>
-  </header>
+
 
   <nav>
       <ul>
@@ -21,37 +21,35 @@
           <li><a href="contact.html">Contact</a></li>
       </ul>
   </nav>
-
-  <div class="container">
+  </header>
+  <div class="container clearfix">
 
     <section id="contact-form">
 
       <h2>Contact</h2>
         <form>
-            Name:<br>
-            <input type="text" name="name" value="John Smith">
+            <label for="Name">Name</label><br>
+            <input class="input-width form-space" type="text" name="name" value="John Smith">
             <br>
-            Email:<br>
-            <input type="email" name="email" value="example@gmail.com">
+            <label for="Email">Email</label<br>
+            <input class="input-width form-space" type="email" name="email" value="example@gmail.com">
             <br>
-            Message:<br>
-            <input type="text" name="message">
+            <label for="Message">Message</label><br>
+            <input class="input-width form-space" type="text" id="message-box" name="message">
             <br>
-            <input type="submit" value="Submit">
-
-
+            <input id="submit-button" type="submit" value="Submit">
         </form>
     </section>
 
     <aside id="contact-info">
-      <h2>Connect with Me</h2>
+      <h3>Connect with Me</h3>
         <a href="https://github.com/rebeccagem" target="_blank"><img src="assets/images/github-icon.png" alt="Github"></a>
         <a href="https://www.linkedin.com/in/rebecca-gemeinhardt/" target="_blank"><img src="assets/images/linkedin-icon.png" alt="LinkedIn"></a>
         <a href="https://stackoverflow.com/users/9005368/rebecca-gemeinhardt" target="_blank"><img src="assets/images/stackoverflow-icon.png" alt="Stack Overflow"></a>
     </aside>
   </div>
   <footer>
-      <h4>© Copyright 2018 Rebecca Gemeinhardt</h4>
+      <h5>© Copyright 2018 Rebecca Gemeinhardt</h5>
   </footer>
 </body>
 
